@@ -14,6 +14,7 @@
 		40C1A3551AF8955500A6BD0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C1A3541AF8955500A6BD0A /* Images.xcassets */; };
 		40C1A3581AF8955500A6BD0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40C1A3561AF8955500A6BD0A /* LaunchScreen.xib */; };
 		40C1A3641AF8955500A6BD0A /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C1A3631AF8955500A6BD0A /* __Tests.m */; };
+		40C1A36F1AF8970800A6BD0A /* drawBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C1A36E1AF8970800A6BD0A /* drawBoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		40C1A35D1AF8955500A6BD0A /* 画板Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画板Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C1A3621AF8955500A6BD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40C1A3631AF8955500A6BD0A /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		40C1A36D1AF8970800A6BD0A /* drawBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawBoardView.h; sourceTree = "<group>"; };
+		40C1A36E1AF8970800A6BD0A /* drawBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawBoardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				40C1A34E1AF8955500A6BD0A /* ViewController.h */,
 				40C1A34F1AF8955500A6BD0A /* ViewController.m */,
 				40C1A3511AF8955500A6BD0A /* Main.storyboard */,
+				40C1A36D1AF8970800A6BD0A /* drawBoardView.h */,
+				40C1A36E1AF8970800A6BD0A /* drawBoardView.m */,
 				40C1A3541AF8955500A6BD0A /* Images.xcassets */,
 				40C1A3561AF8955500A6BD0A /* LaunchScreen.xib */,
 				40C1A3471AF8955500A6BD0A /* Supporting Files */,
@@ -222,6 +227,7 @@
 				40C1A3501AF8955500A6BD0A /* ViewController.m in Sources */,
 				40C1A34D1AF8955500A6BD0A /* AppDelegate.m in Sources */,
 				40C1A34A1AF8955500A6BD0A /* main.m in Sources */,
+				40C1A36F1AF8970800A6BD0A /* drawBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,21 +7,44 @@
 //
 
 #import "ViewController.h"
+#import "drawBoardView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet drawBoardView *boardView;
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)clearScreen:(id)sender {
+    
+    [self.boardView clear];
+    
+}
+
+- (IBAction)backScreen:(id)sender {
+    
+    [self.boardView back];
+}
+
+- (IBAction)saveScreen:(id)sender {
+    
+    [self.boardView save];
+    
+}
+
+- (IBAction)blueBtnClick:(id)sender {
+    [self.boardView setBlue];
+}
+
+- (IBAction)redBtnClick:(id)sender {
+    
+    [self.boardView setRed];
 }
 
 @end
